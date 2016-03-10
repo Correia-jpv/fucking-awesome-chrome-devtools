@@ -6,13 +6,14 @@ _Awesome tooling and resources in the Chrome DevTools ecosystem_
 * [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) standalone devtools app which can inspect various targets.
 * [DevTools Remote](https://devtoolsremote.com/) Remotely debug someone else's browser via Chrome DevTools.
 
-## DevTools as a lib
-* [chrome-devtools-frontend on NPM](https://www.npmjs.com/package/chrome-devtools-frontend)
+## Node.js + DevTools
+* [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) mirror of the frontend shipping in Chrome
+* [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) is the recommended Node.js API for the protocol. There are also [TypeScript-friendly alternatives](https://github.com/DickvdBrink/chrome-debug-protocol).
 * [chrome-timeline-model](https://www.npmjs.com/package/devtools-timeline-model)
+* [crmux](https://github.com/sidorares/crmux) multiplexes protocol connections
 
 ## Chrome Debugging Protocol
 * [Debugging Protocol Viewer](https://chromedevtools.github.io/debugger-protocol-viewer/) easy browsable UI for exploring the protocol's domains, methods and events
-* [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) recommended node API for the protocol. [This module](https://github.com/DickvdBrink/chrome-debug-protocol) offers an TypeScript-friendly alternative
 * [Remote Debug Gateway](https://github.com/RemoteDebug/remotedebug-gateway) allows you to connect a client to multiple browsers at once.
 * [Remote Debug Firefox adapter](https://github.com/RemoteDebug/remotedebug-firefox-adapter) translates Firefox's devtools protocol to the CDP
 * [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) exposes Mobile Safari & UIWebView instances via the CDP.
