@@ -19,6 +19,7 @@ _Awesome tooling and resources in the Chrome DevTools ecosystem_
 * [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) - Exposes Mobile Safari & UIWebView instances via the CDP.
 * [devtools-compat-proxy](https://github.com/artygus/devtools-compat-proxy) - Young effort to translate modern Safari debugging protocol to modern CDP.
 * [crmux](https://github.com/sidorares/crmux) - Multiplexer to handle multiple clients.
+* [PonyDebugger](https://github.com/square/PonyDebugger) - Remote network and data debugging iOS apps with Chrome DevTools
 
 ### Network Inspection
 * [betwixt](https://github.com/kdzwinel/betwixt) - System level network proxy, providing inspection via Network panel
@@ -31,7 +32,6 @@ _Awesome tooling and resources in the Chrome DevTools ecosystem_
 
 ### Chrome Debugger integration with Editors
 * [Showcase Protocol Clients](https://developer.chrome.com/devtools/docs/debugging-clients) - Lists many, like Brackets, Vim, LightTable, Sublime, etc.
-
 
 ## Extensions
 ### Workflow
