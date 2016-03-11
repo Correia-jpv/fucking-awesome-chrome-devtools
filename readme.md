@@ -33,6 +33,7 @@ _Awesome tooling and resources in the Chrome DevTools ecosystem_
 
 ### Chrome Debugger integration with Editors
 * [Showcase Protocol Clients](https://developer.chrome.com/devtools/docs/debugging-clients) - Lists many, like Brackets, Vim, LightTable, Sublime, etc.
+* [VS Code - Debugger for Chrome](https://github.com/Microsoft/vscode-chrome-debug/) - Chrome Debugger for Visual Studio Code
 
 ## Extensions
 ### Workflow
