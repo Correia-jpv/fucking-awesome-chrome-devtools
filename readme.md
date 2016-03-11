@@ -5,6 +5,7 @@
 ### DevTools as an IDE
 * [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) - Standalone devtools app which can inspect various targets.
 * [DevTools Remote](https://devtoolsremote.com/) - Remotely debug someone else's browser via Chrome DevTools.
+* [DevTools Snippets](https://github.com/bahmutov/code-snippets) - Collection of DevTools snippets.
 
 ### Node.js + DevTools
 * [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) - The recommended Node.js API for the protocol. There are also [TypeScript-friendly alternatives](https://github.com/DickvdBrink/chrome-debug-protocol).
