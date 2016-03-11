@@ -4,7 +4,6 @@
 
 ## Learning
 * [Dev Tips](https://umaar.com/dev-tips/) - Large collection of tips as animated gifs.
-* [Discover DevTools](https://www.codeschool.com/courses/discover-devtools) - Introductory course with videos and challenges.
 
 ### DevTools as an IDE
 * [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) - Standalone devtools app which can inspect various targets.
