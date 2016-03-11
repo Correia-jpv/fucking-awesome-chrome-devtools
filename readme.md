@@ -11,6 +11,7 @@
 * [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) - Mirror of the frontend shipping in Chrome.
 * [chrome-timeline-model](https://www.npmjs.com/package/devtools-timeline-model) - Uses frontend as lib to process profiling data.
 * [crmux](https://github.com/sidorares/crmux) - Multiplexes protocol connections.
+* [crconsole](https://github.com/sidorares/crconsole) - Terminal based chrome console and debugger.
 * [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
 
 ### Chrome Debugging Protocol
