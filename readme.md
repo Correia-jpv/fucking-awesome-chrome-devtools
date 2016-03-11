@@ -11,6 +11,7 @@ _Awesome tooling and resources in the Chrome DevTools ecosystem_
 * [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) - Mirror of the frontend shipping in Chrome.
 * [chrome-timeline-model](https://www.npmjs.com/package/devtools-timeline-model) - Uses frontend as lib to process profiling data.
 * [crmux](https://github.com/sidorares/crmux) - Multiplexes protocol connections.
+* [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
 
 ### Chrome Debugging Protocol
 * [Debugging Protocol Viewer](https://chromedevtools.github.io/debugger-protocol-viewer/) - Easy browsable UI for exploring the protocol's domains, methods and events
