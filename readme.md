@@ -2,6 +2,9 @@
 
 > Awesome tooling and resources in the Chrome DevTools ecosystem
 
+## Learning
+* [Dev Tips](https://umaar.com/dev-tips/) - Large collection of tips as animated gifs.
+
 ### DevTools as an IDE
 * [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) - Standalone devtools app which can inspect various targets.
 * [DevTools Remote](https://devtoolsremote.com/) - Remotely debug someone else's browser via Chrome DevTools.
