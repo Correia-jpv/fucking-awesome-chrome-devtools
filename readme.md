@@ -26,6 +26,7 @@
 * [devtools-compat-proxy](https://github.com/artygus/devtools-compat-proxy) - Young effort to translate modern Safari debugging protocol to modern CDP.
 * [crmux](https://github.com/sidorares/crmux) - Multiplexer to handle multiple clients.
 * [PonyDebugger](https://github.com/square/PonyDebugger) - Remote network and data debugging iOS apps with Chrome DevTools
+* [Facebook Stetho](https://github.com/facebook/stetho) - Native Android debugging with Chrome DevTools
 
 ### Network Inspection
 * [betwixt](https://github.com/kdzwinel/betwixt) - System level network proxy, providing inspection via Network panel
