@@ -6,9 +6,9 @@
 * [Dev Tips](https://umaar.com/dev-tips/) - Large collection of tips as animated gifs.
 
 ### DevTools as an IDE
-* [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) - Standalone devtools app which can inspect various targets.
-* [DevTools Remote](https://devtoolsremote.com/) - Remotely debug someone else's browser via Chrome DevTools.
-* [DevTools Snippets](https://github.com/bahmutov/code-snippets) - Collection of DevTools snippets.
+* [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) - Standalone app which can inspect various targets.
+* [DevTools Remote](https://devtoolsremote.com/) - Remotely debug someone else's browser.
+* [DevTools Snippets](https://github.com/bahmutov/code-snippets) - Collection of snippets.
 
 ### Node.js + DevTools
 * [devtool](https://github.com/Jam3/devtool) - Runs Node.js programs inside Chrome DevTools (using Electron).
@@ -41,25 +41,25 @@
 * [Wishbone python framework](http://wishbone.readthedocs.org/en/develop/miscellaneous.html#profiling) - Profiling data can export as `.cpuprofile`.
 
 ### Chrome Debugger integration with Editors
-* [Showcase Protocol Clients](https://developer.chrome.com/devtools/docs/debugging-clients) - Lists many, like Brackets, Vim, LightTable, Sublime, etc.
+* [Showcase Protocol Clients](https://developer.chrome.com/devtools/docs/debugging-clients) - Lists many editor integration extensions.
 * [VS Code - Debugger for Chrome](https://github.com/Microsoft/vscode-chrome-debug/) - Chrome Debugger for Visual Studio Code
 
 ## Extensions
 ### Workflow
-* [Clockwork](https://chrome.google.com/webstore/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp?hl=en)  View PHP application profiling data.
+* [Clockwork](https://chrome.google.com/webstore/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp?hl=en) - View PHP application profiling data.
 * [Emulated Device Lab](https://chrome.google.com/webstore/detail/emulated-device-lab/oaonfodocibcdobdeelbbfggjombamff) - Experiment with multiple devices being emulated at the same time.
 * [RailsPanel](https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg?hl=en-US) - View Ruby on Rails application profiling data.
 * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) - Inspect the React component hierarchies.
 * [EmberJS Inspector](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi) - Allows you to inspect EmberJS objects in your application.
-* [VueJS Developer Tools](https://github.com/vuejs/vue-devtools) - Chrome devtools extension for debugging Vue.js applications
+* [VueJS Developer Tools](https://github.com/vuejs/vue-devtools) - Inspect VueJS components and manipulate their data.
 * [Angular Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk) - Inspect an Angular application's scope and profile its data.
-* [Marionette Inspector](https://chrome.google.com/webstore/detail/marionette-inspector/fbgfjlockdhidoaempmjcddibjklhpka) - Inspect a Marionette application's views, events or live data.
-* [Backbone Debugger](https://chrome.google.com/webstore/detail/backbone-debugger/bhljhndlimiafopmmhjlgfpnnchjjbhd) - Inspect a Backbone application's views, models, events and routes.
+* [Marionette Inspector](https://chrome.google.com/webstore/detail/marionette-inspector/fbgfjlockdhidoaempmjcddibjklhpka) - Inspect a Marionette application's views, events, and live data.
+* [Backbone Debugger](https://chrome.google.com/webstore/detail/backbone-debugger/bhljhndlimiafopmmhjlgfpnnchjjbhd) - Inspect a Backbone application's views, models, events, and routes.
 * [App Inspector for Sencha](https://chrome.google.com/webstore/detail/app-inspector-for-sencha/pbeapidedgdpniokbedbfbaacglkceae) - Inspect a Sencha ExtJS/Touch application's component tree, data stores, events, and layouts.
-* [Redux Devtools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) - DevTools for Redux with actions history, undo and replay.
-* [Three.js](https://chrome.google.com/webstore/detail/threejs-editor-extension/fbgbekpggeldiacgjkacbkkcbjhmakea/) - A Chrome DevTools extension to edit any three.js project.
-* [Insight](https://github.com/3Dparallax/insight/) Insight is a WebGL debugging toolkit providing a variety of capabilities enabling more productive WebGL development and more efficient WebGL applications.
+* [Redux Devtools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) - Inspect Redux with actions history, undo and replay.
+* [Three.js](https://chrome.google.com/webstore/detail/threejs-editor-extension/fbgbekpggeldiacgjkacbkkcbjhmakea/) - Edit any three.js project.
+* [Insight](https://github.com/3Dparallax/insight/) - A WebGL debugging toolkit which enables more productive WebGL development and more efficient WebGL applications.
 
 ### UX
-* [DevTools Author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi) - A selection of author settings for Chrome Developer Tools.
+* [DevTools Author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi) - A selection of themes to modify parts of DevTools related to authoring web applications.
 * [Zero Dark Matrix](https://chrome.google.com/webstore/detail/devtools-theme-zero-dark/bomhdjeadceaggdgfoefmpeafkjhegbo) - Dark theme for Chrome Developer Tools.
