@@ -11,14 +11,11 @@
 * [DevTools Snippets](https://github.com/bahmutov/code-snippets) - Collection of snippets.
 
 ### Node.js + DevTools
-* [devtool](https://github.com/Jam3/devtool) - Runs Node.js programs inside Chrome DevTools (using Electron).
 * [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) - The recommended Node.js API for the protocol. There are also [TypeScript-friendly alternatives](https://github.com/DickvdBrink/chrome-debug-protocol).
 * [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) - Mirror of the frontend shipping in Chrome.
 * [chrome-timeline-model](https://www.npmjs.com/package/devtools-timeline-model) - Uses frontend as lib to process profiling data.
 * [crmux](https://github.com/sidorares/crmux) - Multiplexes protocol connections.
 * [crconsole](https://github.com/sidorares/crconsole) - Terminal based chrome console and debugger.
-* [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
-* [immutable-devtools](https://github.com/andrewdavey/immutable-devtools) - Custom formatter for Immutable-js values.
 
 ### Chrome Debugging Protocol
 * [Debugging Protocol Viewer](https://chromedevtools.github.io/debugger-protocol-viewer/) - Easy browsable UI for exploring the protocol's domains, methods and events
@@ -28,8 +25,17 @@
 * [IE Diagnostics Adapter](https://github.com/Microsoft/IEDiagnosticsAdapter) - Protocol adaptor for Microsoft IE 10/11 to CDP.
 * [devtools-compat-proxy](https://github.com/artygus/devtools-compat-proxy) - Young effort to translate modern Safari debugging protocol to modern CDP.
 * [crmux](https://github.com/sidorares/crmux) - Multiplexer to handle multiple clients.
+
+### Debugging Android & iOS w/ DevTools
 * [PonyDebugger](https://github.com/square/PonyDebugger) - Remote network and data debugging iOS apps with Chrome DevTools
 * [Facebook Stetho](https://github.com/facebook/stetho) - Native Android debugging with Chrome DevTools
+
+### Debugging Node.js w/ DevTools
+* [devtool](https://github.com/Jam3/devtool) - Debug & profile Node.js apps with Chrome DevTools (using Electron).
+* [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
+
+### Object formatting
+* [immutable-devtools](https://github.com/andrewdavey/immutable-devtools) - Custom formatter for Immutable-js values.
 
 ### Network Inspection
 * [betwixt](https://github.com/kdzwinel/betwixt) - System level network proxy, providing inspection via Network panel
