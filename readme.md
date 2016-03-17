@@ -18,6 +18,7 @@
 * [crmux](https://github.com/sidorares/crmux) - Multiplexes protocol connections.
 * [crconsole](https://github.com/sidorares/crconsole) - Terminal based chrome console and debugger.
 * [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
+* [immutable-devtools](https://github.com/andrewdavey/immutable-devtools) - Custom formatter for Immutable-js values.
 
 ### Chrome Debugging Protocol
 * [Debugging Protocol Viewer](https://chromedevtools.github.io/debugger-protocol-viewer/) - Easy browsable UI for exploring the protocol's domains, methods and events
