@@ -33,6 +33,7 @@
 - [Facebook Stetho](https://github.com/facebook/stetho) - Native Android debugging with Chrome DevTools
 
 ### Debugging Node.js w/ DevTools
+- [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27) - New, native support for full debugging and profiling in Node v6.3+
 - [devtool](https://github.com/Jam3/devtool) - Debug & profile Node.js apps with Chrome DevTools (using Electron).
 - [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
 
@@ -50,6 +51,9 @@
 
 ### Multimedia
 - [snapline](https://github.com/pmdartus/snapline) - Converts timeline screenshots to gif.
+
+### Timeline, Tracing & Profiling
+- [DevTools Timeline Viewer](https://chromedevtools.github.io/timeline-viewer/) - Share URLs of your timeline recordings.
 
 ### Chrome Debugger integration with Editors
 - [Showcase Protocol Clients](https://developer.chrome.com/devtools/docs/debugging-clients) - Lists many editor integration extensions.
