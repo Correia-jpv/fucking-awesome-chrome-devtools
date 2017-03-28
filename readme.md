@@ -7,7 +7,7 @@
 
 ### DevTools as an IDE
 - [Chrome DevTools App](https://github.com/auchenberg/chrome-devtools-app) - Standalone app which can inspect various targets.
-- [DevTools Remote](https://devtoolsremote.com) - Remotely debug someone else's browser.
+- [DevTools Remote](https://github.com/auchenberg/devtools-remote) - Remotely debug someone else's browser.
 - [DevTools Snippets](https://github.com/bahmutov/code-snippets) - Collection of snippets.
 
 ### Node.js + DevTools
