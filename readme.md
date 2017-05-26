@@ -24,6 +24,7 @@
 - [chrome-debugging-client](https://github.com/krisselden/chrome-debugging-client) - A TypeScript async/await-friendly debugging client
 - [cdp4j](https://github.com/webfolderio/cdp4j) - Java library for CDP
 - [chromote](https://github.com/iiSeymour/chromote) - Simple wrapper to drive Google Chrome from Python
+- [cdp](https://github.com/mafredri/cdp) - A Golang library for the protocol
 
 ### Using protocol 
 - [chrome-remote-interface Wiki](https://github.com/cyrus-and/chrome-remote-interface/wiki) - Many useful recipes
