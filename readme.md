@@ -1,4 +1,4 @@
-# Awesome chrome-devtools [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome chrome-devtools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Awesome tooling and resources in the Chrome DevTools ecosystem
 
@@ -71,6 +71,7 @@
 - [automated-chrome-profiling](https://github.com/paulirish/automated-chrome-profiling#readme) - Node.js recipes for automating JavaScript profiling in Chrome.
 - [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) - Mirror of the frontend that ships in Chrome.
 - [chrome-timeline-model](https://www.npmjs.com/package/devtools-timeline-model) - Uses frontend as lib to process profiling data.
+- [headless-devtools](https://github.com/cowchimp/headless-devtools) - Perform various DevTools actions from code (e.g. get CSS Coverage, JS Heap snapshot). Uses Puppeteer + frontend as lib.
 - [crconsole](https://github.com/sidorares/crconsole) - Terminal based chrome console and debugger.
 
 #### Browser Adapters
