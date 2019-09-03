@@ -66,6 +66,7 @@
 ## Protocol Driver Libraries
 - JavaScript/Node.js: [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) - The most-used JavaScript API for the protocol
 - TypeScript/Node.js: [chrome-debugging-client](https://github.com/krisselden/chrome-debugging-client) - A TypeScript async/await-friendly debugging client
+- Java: [chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client) - Chrome DevTools Java Client
 - Java: [karate](https://intuit.github.io/karate/karate-core/) - Web-service testing framework with a Java API to automate Chrome with the CDP protocol
 - Python: [PyCDP](https://github.com/hyperiongray/python-chrome-devtools-protocol) - Pure-Python, sans-IO wrappers for Chrome DevTools Protocol
 - Python: [Trio CDP](https://github.com/hyperiongray/trio-chrome-devtools-protocol) - Trio driver for Chrome DevTools Protocol (based on PyCDP).
