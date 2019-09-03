@@ -121,9 +121,9 @@
 - [go-debugger-devtools](https://github.com/allada/go-debugger-devtools)
 
 #### Node.js
+- [ndb](https://github.com/GoogleChromeLabs/ndb) - an improved node.js debugging experience with the DevTools Frontend
 - [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27) - Guide on using the full debugging and profiling support in Node v6.3+.
-- [devtool](https://github.com/Jam3/devtool) - Debug & profile Node.js apps with Chrome DevTools (using Electron).
-- [buggerJS](https://github.com/buggerjs/bugger) - Provides Chrome DevTools bindings for node.
+- [thetool](https://github.com/sfninja/thetool) - cpu, memory, coverage, type profiling with Node.
 
 
 ---
