@@ -61,8 +61,9 @@
 
 ### Automation
 - [Puppeteer](https://github.com/GoogleChrome/puppeteer/) - Node.js offering a high-level API to control headless Chrome over the DevTools Protocol.
-  - Python: [pyppeteer](https://github.com/miyakogi/pyppeteer) - Headless chrome/chromium automation library (unofficial port of puppeteer)
-  - Rust: [Rust Headless Chrome](https://github.com/atroche/rust-headless-chrome/) - An implementation of Puppeteer in Rust
+  - Python port: [pyppeteer](https://github.com/miyakogi/pyppeteer)
+  - Rust port: [Rust Headless Chrome](https://github.com/atroche/rust-headless-chrome/)
+  - .NET port: [Puppeteer Sharp](https://github.com/kblok/puppeteer-sharp)
   - [headless-devtools](https://github.com/cowchimp/headless-devtools) - Puppeteer plugin to get CSS Coverage or JS Heap snapshot.
 - [Taiko](https://github.com/getgauge/taiko/) - A Node.js module to automate the chrome/chromium using DevTools protocol.
 - Also all `Protocol Driver Libraries` below
