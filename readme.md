@@ -96,10 +96,7 @@
 - [crmux](https://github.com/sidorares/crmux) - Multiplexes protocol connections.
 - [automated-chrome-profiling](https://github.com/paulirish/automated-chrome-profiling#readme) - Node.js recipes for automating JavaScript profiling in Chrome.
 - [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) - Mirror of the frontend that ships in Chrome.
-- [chrome-timeline-model](https://www.npmjs.com/package/devtools-timeline-model) - Uses frontend as lib to process profiling data.
-- [headless-devtools](https://github.com/cowchimp/headless-devtools) - Perform various DevTools actions from code (e.g. get CSS Coverage, JS Heap snapshot). Uses Puppeteer + frontend as lib.
-- [crconsole](https://github.com/sidorares/crconsole) - Terminal based chrome console and debugger.
-- [sloth](https://github.com/denar90/sloth) - Chrome extension allows to enable and save CPU and network throttling for selected tabs.
+
 
 ### Browser Adapters
 - [Remote Debug Firefox adapter](https://github.com/RemoteDebug/remotedebug-firefox-adapter) - Translates Firefox's devtools protocol to the CDP.
@@ -127,9 +124,9 @@
 - [go-debugger-devtools](https://github.com/allada/go-debugger-devtools)
 
 #### Node.js
-- [ndb](https://github.com/GoogleChromeLabs/ndb) - an improved node.js debugging experience with the DevTools Frontend
+- [ndb](https://github.com/GoogleChromeLabs/ndb) - An improved Node.js debugging experience with the DevTools Frontend.
 - [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27) - Guide on using the full debugging and profiling support in Node v6.3+.
-- [thetool](https://github.com/sfninja/thetool) - cpu, memory, coverage, type profiling with Node.
+- [thetool](https://github.com/sfninja/thetool) - CPU, memory, coverage, type profiling with Node.
 
 
 ---
@@ -163,6 +160,7 @@
 
 ### Performance
 - [Chrome React Perf](https://chrome.google.com/webstore/detail/react-perf/hacmcodfllhbnekmghgdlplbdnahmhmm) - An Operation Interface for react-addons-perf Package.
+- [sloth](https://github.com/denar90/sloth) - Chrome extension allows to enable and save CPU and network throttling for selected tabs.
 
 ---
 
