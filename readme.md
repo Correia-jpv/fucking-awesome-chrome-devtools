@@ -68,6 +68,7 @@
   - Python port: [pyppeteer](https://github.com/pyppeteer/pyppeteer)
   - Rust port: [Rust Headless Chrome](https://github.com/atroche/rust-headless-chrome/)
   - .NET port: [Puppeteer Sharp](https://github.com/kblok/puppeteer-sharp)
+  - Ruby port: [Ferrum](https://github.com/route/ferrum)
   - [headless-devtools](https://github.com/cowchimp/headless-devtools) - Puppeteer plugin to get CSS Coverage or JS Heap snapshot.
   - [PuPHPeteer](https://github.com/rialto-php/puphpeteer) - PHP-bridge to control Puppeteer using PHP.
 - [Playwright](https://github.com/microsoft/playwright) - Node.js library to automate Chromium, Firefox and WebKit with a single API.
