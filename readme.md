@@ -5,7 +5,7 @@
 ## Contents
 
 - [Learning](#learning)
-- [DevTools tooling and ecosystem](#devtools-tooling-and-ecosystem)
+- [Tracing & Profiling](#tracing--profiling)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol)
 - [Using DevTools frontend with other platforms](#using-devtools-frontend-with-other-platforms)
 - [DevTools Extensions](#devtools-extensions)
@@ -23,21 +23,18 @@
 
 ---
 
-## DevTools tooling and ecosystem
-
-### Timeline, Tracing & Profiling
+## Tracing & Profiling
 - [trace.cafe](https://trace.cafe/) - Share and view web performance traces directly in the DevTools Performance panel ([source](https://github.com/paulirish/trace.cafe)).
 - [speedscope](https://github.com/jlfwong/speedscope) - Fast, interactive web-based flamegraph viewer that natively imports Chrome `.cpuprofile` and timeline trace files.
 - [cpupro](https://github.com/discoveryjs/cpupro) - Interactive viewer and deep analyzer for V8/Chrome `.cpuprofile` logs with flamegraphs, call trees, and hot-spot diagnostics.
 - [Perfetto](https://github.com/google/perfetto) - System profiling, app tracing, and trace analysis suite ([ui.perfetto.dev](https://ui.perfetto.dev/)) with native support for Chromium traces and SQL-based trace querying.
 
-### Chrome Debugger integration with Editors
-- [vscode-js-debug](https://github.com/microsoft/vscode-js-debug) - Official DAP-compliant JavaScript and Chrome CDP debugger powering VS Code.
-- [VS Code - Elements for Microsoft Edge](https://github.com/microsoft/vscode-edge-devtools) - Elements panel inside VS Code.
-
 ---
 
 ## Chrome DevTools Protocol
+
+> Tip: Chrome DevTools has a built-in **[Protocol Monitor](https://developer.chrome.com/docs/devtools/protocol-monitor)** panel (`More tools > Protocol monitor`) for inspecting live CDP traffic and sending raw commands right inside the browser.
+
 - [ChromeDevTools/devtools-protocol](https://github.com/chromedevtools/devtools-protocol) - **Canonical location of the protocol JSON**. Issue tracker for protocol bugs. TypeScript types.
 - [DevTools Protocol API Docs](https://chromedevtools.github.io/devtools-protocol/) - Easy browsable UI for exploring the protocol's domains, methods and events.
 
@@ -51,20 +48,17 @@
 
 ### Libraries for driving the protocol (or a layer above)
 
-- JavaScript/Node.js: [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
-- TypeScript/Node.js: [chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
-- TypeScript/Node.js: [Taiko](https://github.com/getgauge/taiko/)
+- JavaScript/Node.js: [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) - Low-level CDP client
 - Rust: [chromiumoxide](https://github.com/mattsse/chromiumoxide) - Async/tokio library with generated types
-- Rust: [Rust Headless Chrome](https://github.com/rust-headless-chrome/rust-headless-chrome)
-- Java: [chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
+- Rust: [Rust Headless Chrome](https://github.com/rust-headless-chrome/rust-headless-chrome) - High-level headless Chrome client
+- Java: [chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client) - Low-level protocol client
 - Java: [jvppeteer](https://github.com/fanyong920/jvppeteer) - Headless Chrome for Java
+- Python: [Zendriver](https://github.com/cdpdriver/zendriver) - Async CDP browser automation
 - Python: [PyCDP](https://github.com/hyperiongray/python-chrome-devtools-protocol) - Sans-IO wrappers (see also [Trio driver](https://github.com/hyperiongray/trio-chrome-devtools-protocol))
-- Python: [pyppeteer](https://github.com/pyppeteer/pyppeteer) - Puppeteer port
 - Python: [ChromeController](https://github.com/fake-name/ChromeController) - High-level browser mgmt
 - Go: [chromedp](https://github.com/chromedp/chromedp) - High-level actions and tasks
-- Go: [cdp](https://github.com/mafredri/cdp)
-- Go: [godet](https://github.com/raff/godet)
-- Go: [Rod](https://github.com/go-rod/rod)
+- Go: [Rod](https://github.com/go-rod/rod) - High-level automation and scraping
+- Go: [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for CDP
 - C#/.NET: [Puppeteer Sharp](https://github.com/hardkoded/puppeteer-sharp) - Puppeteer port
 - C#/.NET: [dotnet-chrome-protocol](https://github.com/seclerp/dotnet-chrome-protocol) - Runtime library and schema codegen
 - Ruby: [Ferrum](https://github.com/rubycdp/ferrum) - High-level API to control Chrome
@@ -94,29 +88,23 @@
 
 - [ChromeDevTools/devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend) - Canonical standalone source repository for the Chrome DevTools UI (published to npm as [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend)).
 - [Chii](https://github.com/liriliri/chii) & [Eruda](https://github.com/liriliri/eruda) - Remote debugging server using the real `devtools-frontend` UI (`Chii`, a modern Weinre replacement) and in-page mobile DevTools console (`Eruda`).
-- [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27) - Guide on using the full debugging and profiling support in Node v6.3+.
+- [vscode-js-debug](https://github.com/microsoft/vscode-js-debug) - Official DAP-compliant JavaScript and Chrome CDP debugger powering VS Code.
+- [VS Code - Elements for Microsoft Edge](https://github.com/microsoft/vscode-edge-devtools) - Elements panel inside VS Code.
+- [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27) - Guide on using the full debugging and profiling support in Node.js.
 - [ruby/debug](https://github.com/ruby/debug) - Debugging functionality for Ruby.
-- [j2v8-debugger](https://github.com/AlexTrotsenko/j2v8-debugger) - Debugging JavaScript running in [J2V8](https://github.com/eclipsesource/J2V8) with Chrome DevTools.
 
 ---
 
 ## DevTools Extensions
 
-### Workflow
-- [Clockwork](https://chromewebstore.google.com/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp?hl=en) - View PHP application profiling data.
-- [RailsPanel](https://chromewebstore.google.com/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg?hl=en-US) - View Ruby on Rails application profiling data.
 - [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) - Inspect the React component hierarchies.
-- [Ember.js Inspector](https://chromewebstore.google.com/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi) - Allows you to inspect Ember.js objects in your application.
 - [Vue.js Developer Tools](https://github.com/vuejs/devtools) - Inspect Vue.js components and manipulate their data.
 - [Angular DevTools](https://chromewebstore.google.com/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh) - Debugging and Profiling for Angular applications.
 - [Redux Devtools](https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) - Inspect Redux with actions history, undo and replay.
+- [Ember.js Inspector](https://chromewebstore.google.com/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi) - Allows you to inspect Ember.js objects in your application.
 - [Web Component DevTools](https://chromewebstore.google.com/detail/web-component-devtools/gdniinfdlmmmjpnhgnkmfpffipenjljo) - Inspect, modify and observe Web Components on page.
-
-### Performance
-- [TracerBench](https://github.com/TracerBench/tracerbench) - A controlled performance benchmarking tool for web applications, providing clear, actionable and usable insights into performance deltas.
-
-### Automation
-- [Puppeteer IDE](https://github.com/gajananpp/puppeteer-ide-extension) - Standalone Puppeteer playground in browser's developer tools.
+- [Clockwork](https://chromewebstore.google.com/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp?hl=en) - View PHP application profiling data.
+- [RailsPanel](https://chromewebstore.google.com/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg?hl=en-US) - View Ruby on Rails application profiling data.
 
 ## Alumni
 Old projects, likely not maintained any longer… But still cool.
