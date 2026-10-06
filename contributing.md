@@ -2,6 +2,17 @@
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
+## Inclusion Criteria (Read Before Opening a PR)
+
+Per the [Awesome Manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), **this list is a strict curation, not a directory of everything in the space.** Most pull requests will be closed.
+
+- **Open-source only:** Closed-source extensions, commercial SaaS products, and hosted browser/proxy rentals will not be accepted.
+- **Proven adoption & maintenance:** Don't submit brand-new repos. Projects must be actively maintained and demonstrate real community adoption (not just a freshly published package or weekend project).
+- **No redundant wrappers:** If your tool heavily overlaps with Puppeteer, Playwright, Lighthouse, `chrome-devtools-mcp`, or existing entries without a distinct capability, we will pass.
+- **Objective descriptions only:** Describe *what the tool does* technically. Marketing blurbs ("blazing fast", "for elite devs", "undetectable") and AI-generated PR walls will be closed immediately.
+
+## Formatting & PR Checklist
+
 Ensure your pull request adheres to the following guidelines:
 
 - Search previous suggestions before making a new one, as yours may be a duplicate.
