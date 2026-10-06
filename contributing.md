@@ -6,10 +6,10 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 Per the [Awesome Manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md), **this list is a strict curation, not a directory of everything in the space.** Most pull requests will be closed.
 
-- **Open-source only:** Closed-source extensions, commercial SaaS products, and hosted browser/proxy rentals will not be accepted.
-- **Proven adoption & maintenance:** Don't submit brand-new repos. Projects must be actively maintained and demonstrate real community adoption (not just a freshly published package or weekend project).
-- **No redundant wrappers:** If your tool heavily overlaps with Puppeteer, Playwright, Lighthouse, `chrome-devtools-mcp`, or existing entries without a distinct capability, we will pass.
-- **Objective descriptions only:** Describe *what the tool does* technically. Marketing blurbs ("blazing fast", "for elite devs", "undetectable") and AI-generated PR walls will be closed immediately.
+- Closed-source extensions, commercial SaaS products, and hosted browser/proxy services won't be accepted.
+- Don't submit brand-new repos. Projects need active maintenance and real community traction—not just a freshly published package or weekend build.
+- Skip wrappers that heavily overlap with Puppeteer, Playwright, Lighthouse, [`chrome-devtools-mcp`](https://github.com/ChromeDevTools/chrome-devtools-mcp), or existing entries unless they bring a distinct capability under the hood.
+- Keep descriptions strictly technical and objective. Marketing blurbs ("blazing fast", "for elite devs", "undetectable") and AI-generated PR walls will be closed on sight.
 
 ## Formatting & PR Checklist
 

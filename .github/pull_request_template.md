@@ -3,10 +3,10 @@
 
 ### Checklist
 
-- [ ] **Open-source:** The project is open-source (not a commercial SaaS, paid proxy/browser service, or closed-source extension).
-- [ ] **Established & maintained:** The repository is not brand-new and has real community adoption.
-- [ ] **Distinct value:** It does not merely wrap or duplicate Puppeteer, Playwright, Lighthouse, `chrome-devtools-mcp`, or existing entries.
-- [ ] **Objective 1-line description:** Written as `- [Name](link) - Concise technical description.` without marketing fluff.
+- [ ] The project is open-source (not a commercial SaaS, paid proxy/browser service, or closed-source extension).
+- [ ] The repository is actively maintained and has real community traction (not a brand-new repo).
+- [ ] It doesn't just wrap or duplicate Puppeteer, Playwright, Lighthouse, `chrome-devtools-mcp`, or existing entries.
+- [ ] The entry uses an objective 1-line description (`- [Name](link) - Concise technical description.`) with zero marketing fluff.
 
 ### Why does this belong on the list?
 
