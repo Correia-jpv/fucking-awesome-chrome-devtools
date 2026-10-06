@@ -27,10 +27,14 @@
 ## DevTools tooling and ecosystem
 
 ### Timeline, Tracing & Profiling
+- [Perfetto](https://github.com/google/perfetto) - System profiling, app tracing, and trace analysis suite ([ui.perfetto.dev](https://ui.perfetto.dev/)) with native support for Chromium traces and SQL-based trace querying.
+- [speedscope](https://github.com/jlfwong/speedscope) - Fast, interactive web-based flamegraph viewer that natively imports Chrome `.cpuprofile` and timeline trace files.
+- [cpupro](https://github.com/discoveryjs/cpupro) - Interactive viewer and deep analyzer for V8/Chrome `.cpuprofile` logs with flamegraphs, call trees, and hot-spot diagnostics.
 - [DevTools Timeline Viewer](https://chromedevtools.github.io/timeline-viewer/) - Share URLs of your timeline recordings.
 - [call-trace](https://github.com/brendankenny/call-trace) - Can instrument your JS with hooks, and then generate a `.cpuprofile` of the complete (non-sampled) execution. View either time or call counts.
 
 ### Chrome Debugger integration with Editors
+- [vscode-js-debug](https://github.com/microsoft/vscode-js-debug) - Official DAP-compliant JavaScript and Chrome CDP debugger powering VS Code.
 - [VS Code - Elements for Microsoft Edge](https://github.com/microsoft/vscode-edge-devtools) - Elements panel inside VS Code.
 
 ---
@@ -52,6 +56,7 @@
 - JavaScript/Node.js: [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
 - TypeScript/Node.js: [chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
 - TypeScript/Node.js: [Taiko](https://github.com/getgauge/taiko/)
+- Rust: [chromiumoxide](https://github.com/mattsse/chromiumoxide) - High-level async/tokio CDP library with generated types.
 - Rust: [Rust Headless Chrome](https://github.com/rust-headless-chrome/rust-headless-chrome)
 - Java: [chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
 - Java: [jvppeteer](https://github.com/fanyong920/jvppeteer) - Headless Chrome For Java
@@ -89,7 +94,9 @@
 
 ## Using DevTools frontend with other platforms
 
-- [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend) - Mirror of the frontend that ships in Chrome.
+- [ChromeDevTools/devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend) - Canonical standalone source repository for the Chrome DevTools UI (published to npm as [chrome-devtools-frontend](https://www.npmjs.com/package/chrome-devtools-frontend), including the headless [`mcp/mcp.ts`](https://github.com/ChromeDevTools/devtools-frontend/blob/main/mcp/mcp.ts) barrel entrypoint).
+- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Compiles and bundles `devtools-frontend`'s core SDK, `TraceEngine`, `HeapSnapshotModel`, source-map resolver, and insight formatters into a standalone Node.js ESM bundle (`chrome-devtools-mcp/build/src/third_party/index.js`).
+- [Chii](https://github.com/liriliri/chii) & [Eruda](https://github.com/liriliri/eruda) - Remote debugging server using the real `devtools-frontend` UI (`Chii`, a modern Weinre replacement) and in-page mobile DevTools console (`Eruda`).
 - [Debugging Node.js with Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27) - Guide on using the full debugging and profiling support in Node v6.3+.
 - [thetool](https://github.com/sfninja/thetool) - CPU, memory, coverage, type profiling with Node.
 - [ruby/debug](https://github.com/ruby/debug) - Debugging functionality for Ruby.
